@@ -12,7 +12,7 @@ const ProfileSection = () => {
         <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
           <div className="w-24 h-24 rounded-full bg-gradient-to-br from-slate-600 to-slate-700 flex items-center justify-center overflow-hidden">
          <img
-        src="../../public/profile.jpg"
+        src="/profile.jpg"
         alt="Profile"
         className="w-full h-full object-cover rounded-full"
       />
