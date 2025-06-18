@@ -9,8 +9,6 @@ interface Project {
   name: string;
   description: string;
   language: string;
-  stars: number;
-  forks: number;
   url: string;
   topics: string[];
 }
@@ -85,14 +83,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               <div className={`w-3 h-3 rounded-full ${getLanguageColor(project.language)}`}></div>
               <span>{project.language}</span>
             </div>
-            <div className="flex items-center gap-1">
-              <Star className="w-4 h-4" />
-              <span>{project.stars}</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <GitFork className="w-4 h-4" />
-              <span>{project.forks}</span>
-            </div>
+
           </div>
         </div>
       </CardContent>
